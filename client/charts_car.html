@@ -1,0 +1,14 @@
+<div>
+	<br >
+	<button id="Generate" type="button" class="btn btn-success" ng-click="generateChart()">Generate Chart</button>
+	<br>
+	<div class = "col-md-4" ng-repeat="(legend,data1) in pie_arrays" >
+		<div class="panel panel-default">
+		<div class="panel-heading">{{legend}} Car class</div>
+			<div class="panel-body">
+				<nvd3 options="options" data="data1"></nvd3>
+			</div>
+		</div>
+		
+	</div>
+</div>
