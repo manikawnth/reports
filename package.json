@@ -1,8 +1,9 @@
+/* package json */
 {
 	"name": "reports",
 	"version": "1.0.0",
 	"description": "Reporting sample",
-	"main": "server.js",
+	"main": "server.js", 
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 		},
